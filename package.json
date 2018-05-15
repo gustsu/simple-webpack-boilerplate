@@ -1,0 +1,30 @@
+{
+  "name": "webpack4-starter",
+  "version": "1.0.0",
+  "description": "https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustsu/webpack4-starter.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Justin Tew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustsu/webpack4-starter/issues"
+  },
+  "homepage": "https://github.com/gustsu/webpack4-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
